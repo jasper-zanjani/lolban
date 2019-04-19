@@ -1,0 +1,14 @@
+#!/bin/bash
+## Convenient colorful banners
+
+WIDTH=$(tput cols)
+:
+if [ -z "$#" ] 
+then
+  while read line
+  do
+    figlet -f "Roman" -w "$WIDTH" -- "$line" | lolcat 
+  done
+else
+  figlet -f "Roman" -w "$WIDTH" -- "$@" | lolcat 
+fi
