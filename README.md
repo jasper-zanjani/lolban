@@ -1,6 +1,4 @@
 # lolban
-Convenient colorful banners
+Convenient colorful banners (Requires [figlet](http://www.figlet.org) and [lolcat](https://github.com/busyloop/lolcat))
 
 ![Screenshot](https://imgur.com/7zgtQie.png)
-
-Requires [figlet](http://www.figlet.org) and [lolcat](https://github.com/busyloop/lolcat)
